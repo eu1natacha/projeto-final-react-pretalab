@@ -1,4 +1,4 @@
-import { Header } from '../components/Header'
+import { Header } from '../Components/Header'
 import portfolioImg from '../assets/portfolio.svg'
 
 export function Portfolio() {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header } from '../components/Header'
+import { Header } from '../Components/Header'
 import contatoImg from '../assets/contact.svg'
 import { database } from '../services/firebase'
 import { ref, push, set } from 'firebase/database'

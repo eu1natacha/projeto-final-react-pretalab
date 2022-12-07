@@ -1,4 +1,4 @@
-import { Header } from '../components/Header'
+import { Header } from '../Components/Header'
 import aboutImg from '../assets/about.svg'
 
 export function Sobre() {
