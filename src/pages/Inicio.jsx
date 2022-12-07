@@ -1,5 +1,5 @@
 import { Alien, BracketsCurly, AddressBook } from 'phosphor-react'
-import { Header } from '../components/Header'
+import { Header } from '../Components/Header'
 import homeImg from '../assets/home.svg'
 
 import styles from '../styles/pages/inicio.module.css'
