@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Footer } from './Components/footer'
+import { Footer } from './Components/Footer'
 import { Menu } from './Components/Menu'
 
 import {Inicio} from './pages/Inicio'
