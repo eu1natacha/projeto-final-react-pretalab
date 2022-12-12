@@ -4,6 +4,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/pages/portfolio.module.css'
+import siteModulo1 from '../assets/siteModulo1.png'
+import siteModulo2 from '../assets/siteModulo2.png'
+import siteModulo3 from '../assets/siteModulo3.png'
 
 export function Portfolio() {
   return (
@@ -13,7 +16,7 @@ export function Portfolio() {
      <div className={styles.cartoes}>
 
      <Card style={{ width: '18rem' }} className={styles.cartao}>
-      <Card.Img variant="top" src="src/assets/siteModulo1.png" />
+      <Card.Img variant="top" src={siteModulo1} />
       <Card.Body>
 
         <div className={styles.cartaoTexto}>
@@ -33,7 +36,7 @@ export function Portfolio() {
      </Card>
 
      <Card style={{ width: '18rem' }} className={styles.cartao}>
-      <Card.Img variant="top" src="src/assets/siteModulo2.png" />
+      <Card.Img variant="top" src={siteModulo2} />
       <Card.Body>
 
         <div className={styles.cartaoTexto}>
@@ -53,7 +56,7 @@ export function Portfolio() {
      </Card>
 
      <Card style={{ width: '18rem' }} className={styles.cartao}>
-      <Card.Img variant="top" src="src/assets/siteModulo3.png" />
+      <Card.Img variant="top" src={siteModulo3} />
       <Card.Body>
 
         <div className={styles.cartaoTexto}>
