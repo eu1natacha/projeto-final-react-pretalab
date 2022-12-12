@@ -1,0 +1,42 @@
+.headerContainer {
+    padding: 6rem;
+    background: #686AAC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .headerTitle {
+    color: #fff;
+    font-size: 4rem;
+  }
+  
+  .headerImageDois {
+    width: 250px;
+    border-style: double;
+    border-color: white;
+    border-radius: 100px;
+    }
+
+    .headerImage {
+      flex-shrink: 0;
+      margin: 20px;
+      height: calc(250px + 6vw);
+      width: calc(250px + 6vw);
+      border: calc(8px + 0.2vw) solid transparent;
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      background-size: cover;
+      box-sizing: border-box;
+      box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      background-image: url('../assets/Natacha Img.jpg'), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+      }
+  
+  @media(max-width: 765px) {
+    .headerImage {
+      width: 100%;
+    }
+  }

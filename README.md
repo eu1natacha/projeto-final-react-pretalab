@@ -1,5 +1,7 @@
 Projeto Final React Modulo Basico Pretalab
 
+Aulas ministradas pelas professoras Simara Conceição e Lisandra Cruz
+
 Meu Portfolio com informações pessoais
 
 ⚠️ Neste site, desenvolvemos atividades básicas e treinamos a aplicação dos conceitos fundamentais de ReactJS conduzidas pela professora Simara Conceição.

@@ -13,8 +13,9 @@
 
 .menuLink {
     text-decoration: none;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     color: #686AAC;
+    font-weight: bold;
 }
 
 @media(max-width: 765px) {

@@ -1,0 +1,23 @@
+.cartoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.cartaoTexto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cartaoTitulo {
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
